@@ -16,7 +16,22 @@
     font-size: 3.2rem;
     font-weight: 800;
     color: #fff;
+    transition: transform 0.3s ease;
 }
+
+.NavbarContainer h3:hover {
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 
 .navList {
     display: flex;
