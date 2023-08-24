@@ -1,0 +1,104 @@
+
+.projectContainer {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.projectContainer h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    max-width: 20rem;
+    text-align: center;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.projectContainer h3::after {
+    position: absolute;
+    content: '';
+    background-color: #36b37e;
+    bottom: -0.75rem;
+    left: 50%;
+    width: 10rem;
+    height: 2px;
+    transform: translateX(-50%);
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 4rem 1rem;
+    grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #d0d9d4;
+    border-radius: 5px;
+    max-width: 369px;
+    position: relative;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    padding-bottom: 2rem;
+    gap: 1rem;
+    background-color: #000;
+}
+
+.card img {
+    height: 15.375rem;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.cardDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cardDetails p {
+    color: rgb(54, 179, 126);
+    font-size: 1.5rem;
+}
+
+.cardDetails ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.cardDetails ul li {
+    color: #fff;
+    background-color: #cb450c;
+    padding: 0.75rem 0.625rem;
+    font-size: 0.75rem;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.seeProjectBtn {
+    position: absolute;
+    margin: 0;
+    bottom: -17px;
+    color: #fff;
+    background-color: #36b37f;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.38;
+    padding: 0.55rem;
+    border: none;
+    width: 150px;
+    border-radius: 5px;
+}

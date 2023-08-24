@@ -1,0 +1,28 @@
+.footerList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.footerList li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.footerList li a img {
+    width: 28px;
+    height: 28px;
+    filter: invert(100%);
+}
+
+.footerList li:hover {
+    border: 2px solid #fff;
+    box-shadow: 1px 0px 13px #f7ef04;
+}

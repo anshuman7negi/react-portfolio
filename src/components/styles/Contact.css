@@ -1,0 +1,57 @@
+.contactContainer {
+    display: flex;
+    color: #fff;
+    padding: 10%;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('../../assets/Problem\ solving-bro.png');
+    background-repeat: no-repeat;
+    background-size: 210px;
+    background-position-y: -12px;
+}
+
+.contactContainer p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    max-width: 463px;
+}
+
+.contactContainer p span {
+    color: rgb(54, 179, 126);;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-sizing: border-box;
+    width: 50%; 
+    text-align: left;
+}
+
+form input {
+    padding: 0.5375rem;
+    color: #d0d9d4;
+    border: 1px solid #d0d9d4;
+    border-radius: 5px;
+}
+
+form textarea {
+    padding: 0.4375rem;
+    border: 2px solid #d0d9d4;
+    border-radius: 5px;
+}
+
+.SubmitButton {
+    color: #fff;
+    background-color: #36b37f;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.38;
+    padding: 0.75rem;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
