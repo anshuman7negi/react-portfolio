@@ -91,4 +91,39 @@
 
 .divideLine {
     border: 0.1px solid #685d5d;
-  }
+}
+
+@media (min-width:375px) and (max-width:768px) {
+
+    .AboutContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 3rem;
+        background-size: 100px;
+        background-position: 15px 10px;
+    }
+
+    .aboutMe {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        flex: 1;
+    }
+
+    .about h3,
+    .AllSkills h3 {
+        font-size: 1.7rem;
+    }
+
+    .offer h3,
+    .collaborate h3 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .AllSkills h3::after {
+        width: 2rem;
+    }
+
+}

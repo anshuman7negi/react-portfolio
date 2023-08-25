@@ -26,3 +26,18 @@
     border: 2px solid #fff;
     box-shadow: 1px 0px 13px #f7ef04;
 }
+
+@media (min-width:375px) and (max-width:768px) {
+
+    .footerList li {
+        width: 32px;
+        height: 32px;
+        box-shadow: 1px 0px 13px #f7ef04;
+    }
+    
+    .footerList li a img {
+        width: 20px;
+        height: 20px;
+        filter: invert(100%);
+    }
+}

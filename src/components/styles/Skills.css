@@ -70,3 +70,21 @@
     padding: 0.625rem;
     border-radius: 100%;
 }
+
+@media (min-width:375px) and (max-width:768px) {
+
+    .skillsContainer {
+        align-items: center;
+    }
+
+    .techSkills {
+        padding: 1rem;
+        width: 70%;
+    }
+
+    .Skills li {
+        padding: 0.75rem 0.525rem;
+        font-size: 0.75rem;
+        text-align: center;
+    }    
+}

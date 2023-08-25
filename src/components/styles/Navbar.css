@@ -46,3 +46,17 @@
     font-size: 1.2rem;
     color: #ffff;
 }
+
+.navList li:hover {
+    color: rgb(54, 179, 126);
+}
+
+@media (min-width:375px) and (max-width:768px) {
+    .navList {
+        display: none;
+    }
+
+    .NavbarContainer {
+        padding: 0.5rem 6%;
+    }
+}
