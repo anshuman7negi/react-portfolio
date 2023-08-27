@@ -66,8 +66,8 @@
 }
 
 .profile {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     box-shadow: 0 2px 2px #ffff;
     animation: popUp 3s ease-in-out infinite;
@@ -79,8 +79,8 @@
 }
 
 .profile img {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
 }
 
@@ -104,7 +104,7 @@
     }
 }
 
-@media (min-width:375px) and (max-width:768px) {
+@media  (max-width:768px) {
     
     .FirstSectionContainer {
         display: flex;

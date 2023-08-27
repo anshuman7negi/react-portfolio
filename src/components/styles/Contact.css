@@ -56,7 +56,7 @@ form textarea {
     margin: 0 auto;
 }
 
-@media (min-width:375px) and (max-width:768px) {
+@media (max-width:768px) {
 
 
     .contactContainer {

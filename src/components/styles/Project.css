@@ -7,7 +7,7 @@
     gap: 4rem;
 }
 
-.projectContainer h3 {
+.projectContainer .projectsHeading {
     color: #fff;
     font-weight: 700;
     font-size: 2.5rem;
@@ -18,7 +18,7 @@
     margin-top: 3rem;
 }
 
-.projectContainer h3::after {
+.projectContainer .projectsHeading::after {
     position: absolute;
     content: '';
     background-color: #36b37e;
@@ -103,10 +103,10 @@
     border-radius: 5px;
 }
 
-@media (min-width:375px) and (max-width:768px) {
+@media (max-width:768px) {
 
     
-    .projectContainer h3 {
+    .projectContainer .projectsHeading {
         font-size: 1.7rem;
     }
     

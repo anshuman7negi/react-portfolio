@@ -93,7 +93,7 @@
     border: 0.1px solid #685d5d;
 }
 
-@media (min-width:375px) and (max-width:768px) {
+@media (max-width:768px) {
 
     .AboutContainer {
         display: flex;

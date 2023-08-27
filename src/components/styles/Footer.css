@@ -27,7 +27,7 @@
     box-shadow: 1px 0px 13px #f7ef04;
 }
 
-@media (min-width:375px) and (max-width:768px) {
+@media (max-width:768px) {
 
     .footerList li {
         width: 32px;

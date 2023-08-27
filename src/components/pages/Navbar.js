@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import '../styles/Navbar.css'
 import { Link } from "react-scroll";
+import { useSelector } from "react-redux";
 
 const Navbar = () => {
 
     const [shouldBlur, setShouldBlur] = useState(false);
+    const singleProject = useSelector((state) => state.projects.selectProject);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -22,7 +24,9 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className={`NavbarContainer ${shouldBlur && 'blur'}`}>
+        <nav
+            className={`NavbarContainer ${shouldBlur && !singleProject && 'blur'}`}
+        >
             <h3>Anshuman</h3>
             <ul className="navList">
                 <li><Link to="FirstSection" smooth={true}>Home</Link></li>

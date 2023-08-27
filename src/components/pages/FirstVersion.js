@@ -5,18 +5,26 @@ import Projects from './Projects';
 import AboutMe from './AboutMe';
 import Contact from './Contact';
 import Footer from './Footer'
+import SeeProjects from './SeeProject';
+import { useSelector } from 'react-redux';
 
-const FirstVersion = () => (
-    <>
-        <div className="backgroundContainer">
-            <Navbar />
-            <FirstSection/>
-            <Projects/>
-            <AboutMe/>
-            <Contact/>
-            <Footer/>
-        </div>
-    </>
-)
+const FirstVersion = () => {
+    const singleProject = useSelector((state) => state.projects.selectProject);
+
+
+    return (
+        <>
+            <div className={`backgroundContainer ${singleProject && 'backgroundBlur'}`}>
+                <Navbar />
+                <FirstSection />
+                <Projects />
+                <AboutMe />
+                <Contact />
+                <Footer />
+            </div>
+            {singleProject && <SeeProjects />}
+        </>
+    )
+}
 
 export default FirstVersion;

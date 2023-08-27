@@ -1,11 +1,15 @@
+import { Provider } from 'react-redux';
 import './App.css';
 import FirstVersion from './components/pages/FirstVersion';
+import store from './components/redux/store'
 
 function App() {
   return (
-    <div className="App">
-      <FirstVersion/>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <FirstVersion />
+      </div>
+    </Provider>
   );
 }
 
