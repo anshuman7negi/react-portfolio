@@ -114,7 +114,7 @@
 }
 
 .backgroundBlur {
-    filter: blur(6px);
+    filter: blur(3px);
 }
 
 .closeBtn {

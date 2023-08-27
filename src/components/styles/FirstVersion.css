@@ -24,3 +24,11 @@
         background-position: 30% 29%;
     }
 }
+
+
+@media (max-width:768px) {
+    .backgroundContainer {
+        background-color: #201b1b;
+    }
+    
+}
