@@ -101,6 +101,14 @@
     border: none;
     width: 150px;
     border-radius: 5px;
+    outline: 3px solid #d0d9d4;
+    outline-offset: 5px;
+}
+
+.seeProjectBtn:hover {
+    outline-offset: -5px;
+    outline: none;
+    transition: 0.3s;
 }
 
 @media (max-width:768px) {

@@ -7,6 +7,18 @@ const SeeProjects = () => {
     const dispatch = useDispatch();
     const singleProject = useSelector((state) => state.projects.selectProject);
 
+    const handleLiveClick = () => {
+        if (singleProject && singleProject.live_version) {
+            window.open(singleProject.live_version, '_blank');
+        }
+    };
+
+    const handleSourceClick = () => {
+        if (singleProject && singleProject.link_source) {
+            window.open(singleProject.link_source, '_blank');
+        }
+    };
+
     return (
         <div className="seeProjectContainer">
             <button className='closeBtn' onClick={() => dispatch(closePopup())}>X</button>
@@ -23,8 +35,8 @@ const SeeProjects = () => {
                     </div>
                     <div className='bottomContainer'>
                     <div className='projectBtn'>
-                            <button>See Live</button>
-                            <button>See Source</button>
+                            <button onClick={handleLiveClick}>See Live</button>
+                            <button onClick={handleSourceClick} >See Source</button>
                         </div>
                         <p>{singleProject.cardDetail}</p>
                     </div>
