@@ -137,6 +137,11 @@
 
 
 @media (max-width:768px) {
+
+    .seeProjectContainer {
+        width: 80%;
+    }
+
     .middleContainer {
         display: flex;
         flex-direction: column;
