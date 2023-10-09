@@ -12,17 +12,20 @@
 }
 
 .seeProjectContainer::-webkit-scrollbar {
-    width: 2px;
+    width: 0px;
 }
 
 .seeProjectContainer::-webkit-scrollbar-thumb {
-    background-color: #cb450c;
+    background-color: black;
     border-radius: 50px;
-    height: 20px;
 }
 
 .seeProjectContainer::-webkit-scrollbar-track {
     background-color: rebeccapurple;
+}
+
+.seeProjectContainer::-webkit-scrollbar-track {
+    background: transparent; /* This makes the track transparent */
 }
 
 .projectDeatilContainer {
@@ -61,7 +64,7 @@
     display: flex;
     list-style-type: none;
     align-items: center;
-    gap: 1rem;
+    gap: 5px;
 }
 
 .middleContainer ul li {
@@ -73,7 +76,6 @@
     padding: 0.55rem 0.55rem;
     font-size: 0.85rem;
     line-height: 1.33;
-    letter-spacing: 0.03em;
     font-weight: 600;
     border-radius: 50px;
 }
@@ -93,6 +95,7 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.6;
+    text-align: center;
 }
 
 .projectBtn {

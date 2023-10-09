@@ -27,7 +27,7 @@ const Skills = () => (
         </div>
         <div className="techSkills">
             <img className="softSkillImg" src={skills} alt="" />
-            <p>Back-End</p>
+            <p>Soft-Skills</p>
             <ul className="Skills">
                 <li>Remote pair-programming</li>
                 <li>Problem solving</li>
