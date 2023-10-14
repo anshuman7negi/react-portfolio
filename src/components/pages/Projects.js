@@ -20,7 +20,7 @@ const Projects = () => {
                             <ul>
                                 <li>{item.languageUsed[0]}</li>
                                 <li>{item.languageUsed[1]}</li>
-                                <li>{item.languageUsed[1]}</li>
+                                <li>{item.languageUsed[2]}</li>
                             </ul>
                             <button className="seeProjectBtn" onClick={() => dispatch(selectProject(item)) } >See Project</button>
                         </div>

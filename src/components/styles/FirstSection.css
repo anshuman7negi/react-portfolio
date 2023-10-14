@@ -37,6 +37,28 @@
     max-width: 35rem;
 }
 
+.ResumeContainer {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.resume {
+    background-color: #cb450c;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.38;
+    padding: 0.55rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.resume a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .iconsList {
     display: flex;
     list-style-type: none;
@@ -105,13 +127,17 @@
 }
 
 @media  (max-width:768px) {
+
+    .ResumeContainer {
+        flex-direction: column;
+    }
     
     .FirstSectionContainer {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 1rem 2rem;
+        padding: 7rem 2rem;
     }
 
     .FirstSectionDetails h1 {

@@ -18,26 +18,33 @@ const FirstSection = () => (
                 of my work and experience! If you like what you see and have a project
                 you need coded, don’t hesitate to contact me.
             </p>
-            <ul className="iconsList">
-                <li>
-                    <a href="https://github.com/anshuman7negi"><img src={github} alt="" /></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/AnshumanNegi108"
-                    ><img src={twitter} alt=""
-                        /></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/anshuman-singh-negi-33779a224/"
-                    ><img src={linkedin} alt=""
-                        /></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/@Anshuman_Negi"
-                    ><img src={youtube} alt=""
-                        /></a>
-                </li>
-            </ul>
+            <div className="ResumeContainer">
+                <ul className="iconsList">
+                    <li>
+                        <a href="https://github.com/anshuman7negi"><img src={github} alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/AnshumanNegi108"
+                        ><img src={twitter} alt=""
+                            /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/anshuman-singh-negi-33779a224/"
+                        ><img src={linkedin} alt=""
+                            /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/@Anshuman_Negi"
+                        ><img src={youtube} alt=""
+                            /></a>
+                    </li>
+                </ul>
+                <button className="resume">
+                    <a href="https://docs.google.com/document/d/1UuXjP9NvQgBIDhwq7PdiDuY1pnZVYnA6mkMJguLWxfc/edit?usp=sharing" target="_blank" rel="noreferrer">
+                        GET MY CV
+                    </a>
+                </button>
+            </div>
         </div>
         <div className="profile">
             <img src={anshuman} alt="" />

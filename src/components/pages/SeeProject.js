@@ -30,7 +30,7 @@ const SeeProjects = () => {
                         <ul>
                             <li>{singleProject.languageUsed[0]}</li>
                             <li>{singleProject.languageUsed[1]}</li>
-                            <li>{singleProject.languageUsed[1]}</li>
+                            <li>{singleProject.languageUsed[2]}</li>
                         </ul>
                     </div>
                     <div className='bottomContainer'>

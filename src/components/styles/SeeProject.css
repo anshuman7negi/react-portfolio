@@ -1,6 +1,6 @@
 .seeProjectContainer {
     color: #fff;
-    background-color: rebeccapurple;
+    background-color: #393638;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -46,6 +46,7 @@
     font-size: 1.5rem;
     line-height: 1.2;
     max-width: 20rem;
+    text-align: center;
 }
 
 .seeProject img {
@@ -101,8 +102,10 @@
 .projectBtn {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+    gap: 20px;
+
 }
 
 .projectBtn button {
@@ -157,7 +160,6 @@
     .bottomContainer {
         display: flex;
         flex-direction: column;
-        padding: 0 2rem;
         gap: 2rem;
         align-items: center;
         justify-content: center;
