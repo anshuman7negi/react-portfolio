@@ -76,7 +76,16 @@
         font-family: 'Space Mono', monospace;
         font-weight: 600;
         font-size: 1.2rem;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .hamburger-line {
+        width: 32px;
+        height: 5px;
+        background-color: #fff;
+        border-radius: 20px;
     }
 
     .hamburger-active {

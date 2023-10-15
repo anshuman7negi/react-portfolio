@@ -39,22 +39,24 @@ const Navbar = () => {
         >
             <h3>Anshuman</h3>
             <ul className="ulElements navList">
-                <li onClick={toggleHamburger}>
-                    <Link to="FirstSection" smooth={true}>Home</Link>
+                <li>
+                    <Link onClick={toggleHamburger} to="FirstSection" smooth={true}>Home</Link>
                 </li>
-                <li onClick={toggleHamburger}>
-                    <Link to="Projects" smooth={true}>Projects</Link>
+                <li>
+                    <Link onClick={toggleHamburger} to="Projects" smooth={true}>Projects</Link>
                 </li>
-                <li onClick={toggleHamburger}>
-                    <Link to="AboutMe" smooth={true}>About</Link>
+                <li>
+                    <Link onClick={toggleHamburger} to="AboutMe" smooth={true}>About</Link>
                 </li>
-                <li onClick={toggleHamburger}>
-                    <Link to="Contact" smooth={true}>Contact</Link>
+                <li>
+                    <Link onClick={toggleHamburger} to="Contact" smooth={true}>Contact</Link>
                 </li>
             </ul>
-            <h4 className={isHamburgerClose ? "hideHamburger" : "Hamburger"}
-                onClick={toggleHamburger}>hamburger
-            </h4>
+            <div className={isHamburgerClose ? "hideHamburger" : "Hamburger"}
+                onClick={toggleHamburger}>
+                    <div className="hamburger-line"></div>
+                    <div className="hamburger-line"></div>
+            </div>
             <h2 className={isHamburgerClose ? "hamburger-close" : "close-hide"}
                 onClick={toggleHamburger}>X</h2>
         </nav>
