@@ -89,6 +89,16 @@
         width: 50%;
         height: 100vh;
         z-index: 999;
+        transform: translateX(100%);
+        opacity: 0;
+        animation: slideMenu 1.5s ease forwards;
+    }
+
+    @keyframes slideMenu {
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
 
     .navList {
@@ -106,4 +116,13 @@
         padding: 0.4rem 0.8rem;
         border-radius: 50%;
     }
+
+    .hamburger-enter {
+        transform: translateX(0%);
+    }
+
+    .hamburger-exit {
+        transform: translateX(100%);
+    }
+
 }
