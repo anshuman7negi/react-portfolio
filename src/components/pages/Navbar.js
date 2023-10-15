@@ -6,6 +6,7 @@ import { useSelector } from "react-redux";
 const Navbar = () => {
 
     const [shouldBlur, setShouldBlur] = useState(false);
+    const [isHamburgerClose, setIsHamburgerClose] = useState(false);
     const singleProject = useSelector((state) => state.projects.selectProject);
 
     useEffect(() => {
@@ -23,17 +24,30 @@ const Navbar = () => {
         };
     }, []);
 
+    const toggleHamburger = () => {
+        const ulElement = document.querySelector('.ulElements');
+        ulElement.classList.toggle('hamburger-active');
+        ulElement.classList.toggle('navList');
+        setIsHamburgerClose(!isHamburgerClose);
+    };
+
+
     return (
         <nav
             className={`NavbarContainer ${shouldBlur && !singleProject && 'blur'}`}
         >
             <h3>Anshuman</h3>
-            <ul className="navList">
+            <ul className="ulElements navList">
                 <li><Link to="FirstSection" smooth={true}>Home</Link></li>
                 <li><Link to="Projects" smooth={true}>Projects</Link></li>
                 <li><Link to="AboutMe" smooth={true}>About</Link></li>
                 <li><Link to="Contact" smooth={true}>Contact</Link></li>
             </ul>
+            <h4 className="Hamburger"
+                onClick={toggleHamburger}>hamburger
+            </h4>
+            <h2 className={ isHamburgerClose ? "hamburger-close" : "close-hide"}
+            onClick={toggleHamburger}>X</h2>
         </nav>
     )
 }

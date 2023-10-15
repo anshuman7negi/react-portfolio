@@ -1,6 +1,7 @@
 .NavbarContainer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem 10%;
     position: sticky;
     top: 0;
@@ -11,8 +12,12 @@
     z-index: 99;
 }
 
-.zIndex {
-    
+.Hamburger {
+    display: none;
+}
+
+.hamburger-active {
+    display: none;
 }
 
 .NavbarContainer h3 {
@@ -31,6 +36,7 @@
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -44,7 +50,8 @@
     gap: 1rem;
 }
 
-.navList li {
+.navList li,
+.hamburger-active li {
     font-family: 'Space Mono', monospace;
     font-weight: 600;
     font-size: 1.2rem;
@@ -55,12 +62,48 @@
     color: rgb(54, 179, 126);
 }
 
+.close-hide {
+    display: none;
+}
+
 @media (max-width:768px) {
+    .Hamburger {
+        color: #fff;
+        font-family: 'Space Mono', monospace;
+        font-weight: 600;
+        font-size: 1.2rem;
+        display: block;
+    }
+
+    .hamburger-active {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        position: absolute;
+        right: 0%;
+        top: 0;
+        background-color: #393638;
+        width: 50%;
+        height: 100vh;
+        z-index: 999;
+    }
+
     .navList {
         display: none;
     }
 
     .NavbarContainer {
         padding: 0.5rem 6%;
+    }
+
+    .hamburger-close {
+        color: #fff;
+        z-index: 999;
+        background-color: red;
+        padding: 0.4rem 0.8rem;
+        border-radius: 50%;
     }
 }
