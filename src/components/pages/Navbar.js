@@ -43,7 +43,7 @@ const Navbar = () => {
                 <li><Link to="AboutMe" smooth={true}>About</Link></li>
                 <li><Link to="Contact" smooth={true}>Contact</Link></li>
             </ul>
-            <h4 className="Hamburger"
+            <h4 className={ isHamburgerClose ? "hideHamburger" :"Hamburger"}
                 onClick={toggleHamburger}>hamburger
             </h4>
             <h2 className={ isHamburgerClose ? "hamburger-close" : "close-hide"}

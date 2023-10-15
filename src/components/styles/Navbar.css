@@ -20,6 +20,10 @@
     display: none;
 }
 
+.hideHamburger {
+    display: none;
+}
+
 .NavbarContainer h3 {
     font-family: 'Qwitcher Grypen', cursive;
     font-size: 3.2rem;
@@ -115,14 +119,9 @@
         background-color: red;
         padding: 0.4rem 0.8rem;
         border-radius: 50%;
-    }
-
-    .hamburger-enter {
-        transform: translateX(0%);
-    }
-
-    .hamburger-exit {
         transform: translateX(100%);
+        opacity: 0;
+        animation: slideMenu 1.5s ease forwards;
     }
 
 }
