@@ -35,6 +35,7 @@ const Navbar = () => {
     return (
         <nav
             className={`NavbarContainer ${shouldBlur && !singleProject && 'blur'}`}
+            style={{ position: isHamburgerClose && !shouldBlur ? 'relative' : 'sticky' }}
         >
             <h3>Anshuman</h3>
             <ul className="ulElements navList">
