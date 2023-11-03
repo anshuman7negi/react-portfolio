@@ -2,6 +2,7 @@
     background-image: url('../../assets/effect.png');
     animation: static 3s steps(5,end) infinite;
     background-color: black;
+    box-sizing: border-box;
 }
 
 @keyframes static {
@@ -29,6 +30,5 @@
 @media (max-width:768px) {
     .backgroundContainer {
         background-color: #201b1b;
-    }
-    
+    }   
 }

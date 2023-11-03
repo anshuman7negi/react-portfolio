@@ -120,6 +120,7 @@
 
     .NavbarContainer {
         padding: 0.5rem 6%;
+        overflow-x: clip;
     }
 
     .hamburger-close {

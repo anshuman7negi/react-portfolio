@@ -16,6 +16,7 @@
     text-align: center;
     position: relative;
     margin-top: 3rem;
+    text-shadow: 0 0 36px yellow;
 }
 
 .projectContainer .projectsHeading::after {
@@ -48,6 +49,11 @@
     gap: 1rem;
     background-color: #100337;;
     align-items: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.08);
 }
 
 .card img {
@@ -104,13 +110,12 @@
     border: none;
     width: 150px;
     border-radius: 5px;
-    outline: 3px solid #13e58a;
-    outline-offset: 5px;
+    box-shadow: 0 0 30px #13e58a;
 }
 
 .seeProjectBtn:hover {
-    outline-offset: -5px;
-    outline: none;
+    outline-offset: 5px;
+    outline: 3px solid #13e58a;
     transition: 0.3s;
 }
 
@@ -131,6 +136,10 @@
         padding: 4rem 3rem;
         gap: 4rem;
     }
-    
-    
+}
+
+@media screen and (min-width: 769px) and (max-width: 952px) {
+    .projects {
+        grid-template-columns: 1fr 1fr;
+    }
 }

@@ -1,6 +1,6 @@
 import github from '../../assets/github.svg';
 import linkedin from '../../assets/linkedin.svg';
-import twitter from '../../assets/twitter.svg';
+import twitter from '../../assets/twitter.png';
 import youtube from '../../assets/youtube.svg'
 import '../styles/Footer.css'
 

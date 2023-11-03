@@ -26,6 +26,7 @@
 
 .FirstSectionDetails h1 span {
     color: rgb(54, 179, 126);
+    text-shadow: 0 0 22px rgb(54, 179, 126);
 }
 
 .FirstSectionDetails p {
@@ -84,6 +85,7 @@
 .iconsList li a img {
     width: 28px;
     height: 28px;
+    border-radius: 28px;
     filter: invert(100%);
 }
 
@@ -133,11 +135,8 @@
     }
     
     .FirstSectionContainer {
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 7rem 2rem;
+        padding: 4rem 2rem;
     }
 
     .FirstSectionDetails h1 {
@@ -166,5 +165,15 @@
     .profile img {
         width: 150px;
         height: 150px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 952px) {
+    .FirstSectionDetails h1 {
+        font-size: 2rem;
+    }
+    
+    .FirstSectionContainer {
+        padding: 0 2rem;
     }
 }
