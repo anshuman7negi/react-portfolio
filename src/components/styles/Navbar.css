@@ -58,7 +58,7 @@
 .hamburger-active li {
     font-family: 'Space Mono', monospace;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #ffff;
 }
 
@@ -97,7 +97,7 @@
         gap: 1rem;
         position: fixed;
         right: 0%;
-        top: 0;
+        top: 75px;
         background-color: #393638;
         width: 61%;
         height: 100vh;
@@ -105,6 +105,7 @@
         transform: translateX(100%);
         opacity: 0;
         animation: slideMenu 1.5s ease forwards;
+        border-radius: 5px;
     }
 
     @keyframes slideMenu {
