@@ -93,7 +93,6 @@
         flex-direction: column;
         list-style-type: none;
         align-items: center;
-        justify-content: center;
         gap: 1rem;
         position: fixed;
         right: 0%;
@@ -106,6 +105,7 @@
         opacity: 0;
         animation: slideMenu 1.5s ease forwards;
         border-radius: 5px;
+        padding: 4rem 0;
     }
 
     @keyframes slideMenu {
@@ -133,6 +133,7 @@
         transform: translateX(100%);
         opacity: 0;
         animation: slideMenu 1.5s ease forwards;
+        box-shadow: 0 0 20px red;
     }
 
 }
