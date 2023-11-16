@@ -71,6 +71,10 @@
     border-radius: 100%;
 }
 
+.skillsContainer .Tilt {
+    width: 80%;
+}
+
 @media (max-width:768px) {
 
     .skillsContainer {
@@ -79,7 +83,7 @@
 
     .techSkills {
         padding: 1rem;
-        width: 70%;
+        width: 90%;
     }
 
     .Skills li {
