@@ -6,8 +6,17 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     projectData : [
+      {
+        id:1,
+        projectImage: mathMagician,
+        projectTitle: 'Recipe Book',
+        cardDetail: 'The Recipe Book keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
+        languageUsed: ['Ruby on Rails'],
+        live_version: 'https://mathmagic-ux2q.onrender.com/quote',
+        link_source: 'https://github.com/anshuman7negi/recipe-app',
+      },
         {
-          id:1,
+          id:2,
           projectImage: mathMagician,
           projectTitle: 'Math Magician',
           cardDetail: 'Math Magician is a single page application where users can do simple math calculations and read random math related quotes.',
@@ -16,7 +25,7 @@ const initialState = {
           link_source: 'https://github.com/anshuman7negi/math-magicians',
         },
         {
-          id:2,
+          id:3,
           projectImage: zeromusic,
           projectTitle: 'ZIRO MUSIC FESTIVAL',
           cardDetail: 'A simple application to book the ZIRO music festival tickets and get details about the music festival.In this project I have used HTML, CSS, JavaScript.',
@@ -25,7 +34,7 @@ const initialState = {
           link_source: 'https://github.com/anshuman7negi/ConcertPage',
         },
         {
-          id:3,
+          id:4,
           projectImage: flavourHub,
           projectTitle: 'Flavour Hub',
           cardDetail: "Flavour Hub is a web application that displays different meals from an API and allows users to like and comment on their favourite meals.",
@@ -34,7 +43,7 @@ const initialState = {
           link_source: 'https://github.com/anshuman7negi/Kanban_board',
         },
         {
-          id:4,
+          id:5,
           projectImage: demoPortfolio,
           projectTitle: 'Demo Portfolio',
           cardDetail: "This is my demo portfolio website to showcase my skills in HTML5, CSS3, and JAVASCRIPT.",
