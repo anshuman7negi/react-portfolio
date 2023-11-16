@@ -1,3 +1,4 @@
+import { Tilt } from 'react-tilt';
 import skills from '../../assets/Icon Langguage.svg';
 import fontEnd from '../../assets/ux.png';
 import backEnd from '../../assets/back-end.png';
@@ -5,6 +6,7 @@ import '../styles/Skills.css';
 
 const Skills = () => (
     <div className="skillsContainer">
+      <Tilt className="Tilt" options={{ max: 25, scale: 1.05 }}>
         <div className="techSkills">
             <img className="skillImage" src={fontEnd} alt="" />
             <p>Front-End</p>
@@ -17,6 +19,8 @@ const Skills = () => (
                 <li>Sass</li>
             </ul>
         </div>
+        </Tilt>
+        <Tilt className="Tilt" options={{ max: 25, scale: 1.05 }}>
         <div className="techSkills">
             <img className="skillImage" src={backEnd} alt="" />
             <p>Back-End</p>
@@ -29,6 +33,8 @@ const Skills = () => (
                 <li>JWT</li>
             </ul>
         </div>
+        </Tilt>
+        <Tilt className="Tilt" options={{ max: 25, scale: 1.05 }}>
         <div className="techSkills">
             <img className="softSkillImg" src={skills} alt="" />
             <p>Soft-Skills</p>
@@ -39,6 +45,7 @@ const Skills = () => (
                 <li>Decision making</li>
             </ul>
         </div>
+        </Tilt>
     </div>
 )
 

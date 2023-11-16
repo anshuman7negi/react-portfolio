@@ -3,6 +3,7 @@ import linkedin from '../../assets/linkedin.svg';
 import twitter from '../../assets/twitter.png';
 import youtube from '../../assets/youtube.svg'
 import anshuman from '../../assets/anshuman.jpg'
+import { Tilt } from 'react-tilt';
 import '../styles/FirstSection.css'
 
 const FirstSection = () => (
@@ -46,9 +47,11 @@ const FirstSection = () => (
                 </button>
             </div>
         </div>
+        <Tilt className="Tilt" options={{ max: 55 }}>
         <div className="profile">
-            <img src={anshuman} alt="" />
+              <img src={anshuman} alt="" />
         </div>
+        </Tilt>
     </div>
 )
 

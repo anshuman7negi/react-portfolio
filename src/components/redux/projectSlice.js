@@ -11,7 +11,7 @@ const initialState = {
         projectImage: mathMagician,
         projectTitle: 'Recipe Book',
         cardDetail: 'The Recipe Book keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
-        languageUsed: ['Ruby on Rails'],
+        languageUsed: ['Ruby on Rails','Device','Bootstrap'],
         live_version: 'https://mathmagic-ux2q.onrender.com/quote',
         link_source: 'https://github.com/anshuman7negi/recipe-app',
       },
