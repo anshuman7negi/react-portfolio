@@ -9,11 +9,12 @@ const Skills = () => (
             <img className="skillImage" src={fontEnd} alt="" />
             <p>Front-End</p>
             <ul className="Skills">
-                <li>React</li>
+                <li>HTML/CSS</li>
                 <li>JavaScript</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
+                <li>React</li>
                 <li>Redux</li>
+                <li>Tailwind</li>
+                <li>Sass</li>
             </ul>
         </div>
         <div className="techSkills">
@@ -23,6 +24,9 @@ const Skills = () => (
                 <li>Ruby</li>
                 <li>Ruby on rails</li>
                 <li>PostgreSQL</li>
+                <li>Device</li>
+                <li>Cancan</li>
+                <li>JWT</li>
             </ul>
         </div>
         <div className="techSkills">
