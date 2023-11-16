@@ -21,26 +21,26 @@ const FirstSection = () => (
             <div className="ResumeContainer">
                 <ul className="iconsList">
                     <li>
-                        <a href="https://github.com/anshuman7negi"><img src={github} alt="" /></a>
+                        <a href="https://github.com/anshuman7negi" target="_blank" rel="noreferrer"><img src={github} alt="" /></a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/AnshumanNegi108"
+                        <a href="https://twitter.com/AnshumanNegi108" target="_blank" rel="noreferrer"
                         ><img src={twitter} alt=""
                             /></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/anshuman-singh-negi-33779a224/"
+                        <a href="https://www.linkedin.com/in/anshuman-singh-negi-33779a224/" target="_blank" rel="noreferrer"
                         ><img src={linkedin} alt=""
                             /></a>
                     </li>
                     <li>
-                        <a href="https://www.youtube.com/@Anshuman_Negi"
+                        <a href="https://www.youtube.com/@Anshuman_Negi" target="_blank" rel="noreferrer"
                         ><img src={youtube} alt=""
                             /></a>
                     </li>
                 </ul>
                 <button className="resume">
-                    <a href="https://docs.google.com/document/d/1UuXjP9NvQgBIDhwq7PdiDuY1pnZVYnA6mkMJguLWxfc/edit?usp=sharing" target="_blank" rel="noreferrer">
+                    <a href="https://drive.google.com/file/d/1km0qbfIZ4EYPoQMzZa8ygWeeh-pneJSq/view?usp=sharing" target="_blank" rel="noreferrer">
                         GET MY CV
                     </a>
                 </button>
