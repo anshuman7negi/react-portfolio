@@ -41,7 +41,7 @@ const FirstSection = () => (
                     </li>
                 </ul>
                 <button className="resume">
-                    <a href="https://drive.google.com/file/d/1km0qbfIZ4EYPoQMzZa8ygWeeh-pneJSq/view?usp=sharing" target="_blank" rel="noreferrer">
+                    <a href="https://drive.google.com/file/d/1yjBRfU1gruYTQoiu5xiIc6tRFTpiON_j/view?usp=sharing" target="_blank" rel="noreferrer">
                         GET MY CV
                     </a>
                 </button>
