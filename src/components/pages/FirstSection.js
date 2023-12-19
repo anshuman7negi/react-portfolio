@@ -22,21 +22,21 @@ const FirstSection = () => (
             <div className="ResumeContainer">
                 <ul className="iconsList">
                     <li>
-                        <a href="https://github.com/anshuman7negi" target="_blank" rel="noreferrer"><img src={github} alt="" /></a>
+                        <a href="https://github.com/anshuman7negi" target="_blank" rel="noreferrer"><img src={github} alt="GitHub" /></a>
                     </li>
                     <li>
                         <a href="https://twitter.com/AnshumanNegi108" target="_blank" rel="noreferrer"
-                        ><img src={twitter} alt=""
+                        ><img src={twitter} alt="Twitter"
                             /></a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/in/anshuman-singh-negi-33779a224/" target="_blank" rel="noreferrer"
-                        ><img src={linkedin} alt=""
+                        ><img src={linkedin} alt="LinkedIn"
                             /></a>
                     </li>
                     <li>
                         <a href="https://www.youtube.com/@Anshuman_Negi" target="_blank" rel="noreferrer"
-                        ><img src={youtube} alt=""
+                        ><img src={youtube} alt="YouTube"
                             /></a>
                     </li>
                 </ul>
@@ -49,7 +49,7 @@ const FirstSection = () => (
         </div>
         <Tilt className="Tilt" options={{ max: 55 }}>
         <div className="profile">
-              <img src={anshuman} alt="" />
+              <img src={anshuman} alt="profile" />
         </div>
         </Tilt>
     </div>

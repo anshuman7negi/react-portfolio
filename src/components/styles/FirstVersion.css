@@ -1,7 +1,7 @@
 .backgroundContainer {
     background-image: url('../../assets/effect.png');
     animation: static 3s steps(5,end) infinite;
-    background-color: black;
+    background-color: #000000;
     box-sizing: border-box;
 }
 
@@ -29,6 +29,6 @@
 
 @media (max-width:768px) {
     .backgroundContainer {
-        background-color: #201b1b;
+        background-color: #000000;
     }   
 }
