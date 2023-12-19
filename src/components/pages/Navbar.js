@@ -40,16 +40,16 @@ const Navbar = () => {
             <h3>Anshuman</h3>
             <ul className="ulElements navList">
                 <li>
-                    <Link to="FirstSection" smooth={true}>Home</Link>
+                    <Link to="FirstSection" href="#FirstSection" smooth={true}>Home</Link>
                 </li>
                 <li>
-                    <Link to="Projects" smooth={true}>Projects</Link>
+                    <Link to="Projects" href="#Projects" smooth={true}>Projects</Link>
                 </li>
                 <li>
-                    <Link to="AboutMe" smooth={true}>About</Link>
+                    <Link to="AboutMe" href="#AboutMe" smooth={true}>About</Link>
                 </li>
                 <li>
-                    <Link to="Contact" smooth={true}>Contact</Link>
+                    <Link to="Contact" href="#Contact" smooth={true}>Contact</Link>
                 </li>
             </ul>
             <div className={isHamburgerClose ? "hideHamburger" : "Hamburger"}
