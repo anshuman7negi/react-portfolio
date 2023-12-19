@@ -9,7 +9,7 @@ const Projects = () => {
 
 
     return (<div className="projectContainer" id="Projects">
-        <h4 className='projectsHeading'>My Recent Works</h4>
+        <p className='projectsHeading'>My Recent Works</p>
         <div className="projects">
             {
                 projectData.map((item) => {
