@@ -8,7 +8,7 @@ const Skills = () => (
     <div className="skillsContainer">
       <Tilt className="Tilt" options={{ max: 25, scale: 1.05 }}>
         <div className="techSkills">
-            <img className="skillImage" src={fontEnd} alt="" />
+            <img className="skillImage" src={fontEnd} alt="skill" width="100" height="100" />
             <p>Front-End</p>
             <ul className="Skills">
                 <li>HTML/CSS</li>
@@ -22,7 +22,7 @@ const Skills = () => (
         </Tilt>
         <Tilt className="Tilt" options={{ max: 25, scale: 1.05 }}>
         <div className="techSkills">
-            <img className="skillImage" src={backEnd} alt="" />
+            <img className="skillImage" src={backEnd} alt="skill" width="100" height="100" />
             <p>Back-End</p>
             <ul className="Skills">
                 <li>Ruby</li>
@@ -36,7 +36,7 @@ const Skills = () => (
         </Tilt>
         <Tilt className="Tilt" options={{ max: 25, scale: 1.05 }}>
         <div className="techSkills">
-            <img className="softSkillImg" src={skills} alt="" />
+            <img className="softSkillImg" src={skills} alt="skill" width="50" height="50" />
             <p>Soft-Skills</p>
             <ul className="Skills">
                 <li>Remote pair-programming</li>
