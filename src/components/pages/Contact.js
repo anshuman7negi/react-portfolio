@@ -8,6 +8,7 @@ const Contact = () => (
                 Reach out to discuss potential freelance collaborations!
             </p>
         <form action="https://formspree.io/f/mqkovder" method="POST"  >
+            <p>anshumannegi777@gmail.com</p>
             <input type="text" placeholder="Enter your name..." maxLength={30} required />
             <input type="email" placeholder="Enter your email..." required/>
             <textarea name="message" placeholder="Write your message here...." cols="30" rows="10" required></textarea>

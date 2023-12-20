@@ -21,6 +21,10 @@
     color: rgb(54, 179, 126);;
 }
 
+form p {
+    margin: 0 auto;
+}
+
 form {
     display: flex;
     flex-direction: column;
