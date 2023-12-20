@@ -44,7 +44,8 @@
     gap: 2rem;
 }
 
-.resume {
+.resume,
+.hire {
     background-color: #cb450c;
     color: #fff;
     font-weight: 500;
@@ -55,9 +56,21 @@
     border-radius: 5px;
 }
 
-.resume a {
+.hire {
+    background-color: #13e58a;
+}
+
+.button-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.resume a,
+.hire a {
     text-decoration: none;
     color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
 }
 
 .iconsList {

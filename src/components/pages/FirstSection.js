@@ -40,11 +40,18 @@ const FirstSection = () => (
                             /></a>
                     </li>
                 </ul>
+                <div className="button-container">
                 <button className="resume">
                     <a href="https://drive.google.com/file/d/1gCBg4SQKnuTMZ-OvUfuhK0Ki0N9v_tH7/view?usp=sharing" target="_blank" rel="noreferrer">
                         GET MY CV
                     </a>
                 </button>
+                <button className="hire">
+                    <a href="#Contact">
+                        Hire Me
+                    </a>
+                </button>
+                </div>
             </div>
         </div>
         <Tilt className="Tilt" options={{ max: 55 }}>
