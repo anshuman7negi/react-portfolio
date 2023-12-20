@@ -1,7 +1,7 @@
-import zeromusic from '../../assets/projectImages/ziroMusic/zirodesktop.png'
+import zeromusic from '../../assets/projectImages/ziroMusic/Screenshot-2023-10-17-091053.avif'
 import demoPortfolio from '../../assets/projectImages/portfolioDemo/demoPortfolio.png'
 import nikeshop from '../../assets/projectImages/nikeshop/Screenshot-2023-11-25-175725.avif'
-import budgetapp from '../../assets/projectImages/budgetapp/Screenshot 2023-11-26 121733.png'
+import budgetapp from '../../assets/projectImages/budgetapp/Screenshot-2023-11-26-121733.avif'
 import carBook from '../../assets/projectImages/carBook/Screenshot-2023-12-09-221916.webp'
 import samyati from '../../assets/projectImages/samyati/Screenshot-2023-12-12-205256.avif'
 import { createSlice } from "@reduxjs/toolkit";
