@@ -1,0 +1,34 @@
+.backgroundContainer {
+    background-image: url('../../assets/effect.png');
+    animation: static 3s steps(5,end) infinite;
+    background-color: #000000;
+    box-sizing: border-box;
+}
+
+@keyframes static {
+    0% {
+        background-position: 0% 0%;
+    }
+    20% {
+        background-position: 25% 15%;
+    }
+    40% {
+        background-position: 50% 70%;
+    }
+    60% {
+        background-position: 60% 45%;
+    }
+    80% {
+        background-position: 85% 15%;
+    }
+    100% {
+        background-position: 30% 29%;
+    }
+}
+
+
+@media (max-width:768px) {
+    .backgroundContainer {
+        background-color: #000000;
+    }   
+}

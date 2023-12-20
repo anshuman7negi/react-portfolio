@@ -1,0 +1,145 @@
+.NavbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10%;
+    position: sticky;
+    top: 0;
+}
+
+.blur {
+    backdrop-filter: blur(100px);
+    z-index: 99;
+}
+
+.Hamburger {
+    display: none;
+}
+
+.hamburger-active {
+    display: none;
+}
+
+.hideHamburger {
+    display: none;
+}
+
+.NavbarContainer h3 {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.NavbarContainer h3:hover {
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.navList {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navList li,
+.hamburger-active li {
+    font-family: 'Space Mono', monospace;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #ffff;
+}
+
+.navList li a,
+.hamburger-active li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navList li:hover {
+    color: rgb(54, 179, 126);
+}
+
+.close-hide {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .Hamburger {
+        color: #fff;
+        font-family: 'Space Mono', monospace;
+        font-weight: 600;
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .hamburger-line {
+        width: 32px;
+        height: 5px;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+
+    .hamburger-active {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        align-items: center;
+        gap: 1rem;
+        position: fixed;
+        right: 0%;
+        top: 75px;
+        background-color: #393638;
+        width: 61%;
+        height: 100vh;
+        z-index: 999;
+        transform: translateX(100%);
+        opacity: 0;
+        animation: slideMenu 1.5s ease forwards;
+        border-radius: 5px;
+        padding: 4rem 0;
+    }
+
+    @keyframes slideMenu {
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .navList {
+        display: none;
+    }
+
+    .NavbarContainer {
+        padding: 0.5rem 6%;
+        overflow-x: clip;
+    }
+
+    .hamburger-close {
+        color: #fff;
+        z-index: 999;
+        background-color: red;
+        padding: 0.4rem 0.8rem;
+        border-radius: 50%;
+        transform: translateX(100%);
+        opacity: 0;
+        animation: slideMenu 1.5s ease forwards;
+        box-shadow: 0 0 20px red;
+    }
+
+}

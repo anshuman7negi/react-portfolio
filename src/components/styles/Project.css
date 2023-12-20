@@ -1,0 +1,148 @@
+
+.projectContainer {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.projectContainer .projectsHeading {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    max-width: 20rem;
+    text-align: center;
+    position: relative;
+    margin-top: 3rem;
+    text-shadow: 0 0 36px yellow;
+}
+
+.projectContainer .projectsHeading::after {
+    position: absolute;
+    content: '';
+    background-color: #36b37e;
+    bottom: -0.75rem;
+    left: 50%;
+    width: 10rem;
+    height: 2px;
+    transform: translateX(-50%);
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 4rem 3rem;
+    grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    padding-bottom: 2rem;
+    gap: 1rem;
+    background-color: #100337;;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.08);
+}
+
+.card img {
+    height: 15.375rem;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    object-fit: fill;
+}
+
+.cardDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cardDetails p {
+    color: rgb(54, 179, 126);
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.cardDetails ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardDetails ul li {
+    color: #fff;
+    background-color: #cb450c;
+    padding: 0.75rem 0.625rem;
+    font-size: 0.75rem;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.seeProjectBtn {
+    position: absolute;
+    margin: 0;
+    bottom: -17px;
+    color: #fff;
+    background-color: #36b37f;
+    font-weight: 500;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.38;
+    padding: 0.55rem;
+    border: none;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #13e58a;
+}
+
+.seeProjectBtn:hover {
+    outline-offset: 5px;
+    outline: 3px solid #13e58a;
+    transition: 0.3s;
+}
+
+@media (max-width:768px) {
+
+    
+    .projectContainer .projectsHeading {
+        font-size: 1.7rem;
+    }
+    
+    .projectContainer h3::after {
+        width: 5rem;
+    }
+    
+    .projects {
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 3rem;
+        gap: 4rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 952px) {
+    .projects {
+        grid-template-columns: 1fr 1fr;
+    }
+}

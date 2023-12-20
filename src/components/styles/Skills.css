@@ -1,0 +1,94 @@
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.techSkills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem 1rem;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.techSkills p {
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    max-width: 20rem;
+    text-align: center;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.Skills {
+    list-style-type: none;
+    gap: 0.6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 20rem;
+    flex-basis: 100%;
+}
+
+.Skills li {
+    font-family: 'Space Mono', monospace;
+    color: #fff;
+    background-color: #cb450c;
+    padding: 0.75rem 0.625rem;
+    font-size: 0.85rem;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.AllSkills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    gap: 3rem;
+}
+
+.softSkillImg {
+    background-color: #fff;
+    padding: 0.625rem;
+    border-radius: 100%;
+}
+
+.skillImage {
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    padding: 0.625rem;
+    border-radius: 100%;
+}
+
+@media (max-width:768px) {
+
+    .skillsContainer {
+        align-items: center;
+    }
+
+    .techSkills {
+        padding: 1rem;
+        width: 90%;
+    }
+
+    .Skills li {
+        padding: 0.75rem 0.525rem;
+        font-size: 0.75rem;
+        text-align: center;
+    }
+    
+    .skillsContainer .Tilt {
+        width: 80%;
+    }
+}
