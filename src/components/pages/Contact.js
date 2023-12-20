@@ -7,11 +7,11 @@ const Contact = () => (
                 Let's have a chat and explore the exciting possibilities.
                 Reach out to discuss potential freelance collaborations!
             </p>
-        <form action="https://formsubmit.co/el/zejeyi" method="POST"  >
+        <form action="https://formspree.io/f/mqkovder" method="POST"  >
             <input type="text" placeholder="Enter your name..." maxLength={30} required />
             <input type="email" placeholder="Enter your email..." required/>
             <textarea name="message" placeholder="Write your message here...." cols="30" rows="10" required></textarea>
-            <button className="SubmitButton">Get in touch</button>
+            <button type="submit" className="SubmitButton">Get in touch</button>
         </form>
     </div>
 )
