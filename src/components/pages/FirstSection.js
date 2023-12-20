@@ -49,7 +49,7 @@ const FirstSection = () => (
         </div>
         <Tilt className="Tilt" options={{ max: 55 }}>
         <div className="profile">
-              <img src={anshuman} alt="profile" />
+              <img src={anshuman} alt="profile" loading="lazy" />
         </div>
         </Tilt>
     </div>
