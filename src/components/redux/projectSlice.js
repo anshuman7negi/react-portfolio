@@ -1,9 +1,9 @@
 import zeromusic from '../../assets/projectImages/ziroMusic/zirodesktop.png'
 import demoPortfolio from '../../assets/projectImages/portfolioDemo/demoPortfolio.png'
-import nikeshop from '../../assets/projectImages/nikeshop/Screenshot 2023-11-25 175725.avif'
+import nikeshop from '../../assets/projectImages/nikeshop/Screenshot-2023-11-25-175725.avif'
 import budgetapp from '../../assets/projectImages/budgetapp/Screenshot 2023-11-26 121733.png'
-import carBook from '../../assets/projectImages/carBook/Screenshot 2023-12-09 221916.webp'
-import samyati from '../../assets/projectImages/samyati/Screenshot 2023-12-12 205256.avif'
+import carBook from '../../assets/projectImages/carBook/Screenshot-2023-12-09-221916.webp'
+import samyati from '../../assets/projectImages/samyati/Screenshot-2023-12-12-205256.avif'
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
