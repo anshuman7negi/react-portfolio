@@ -14,7 +14,7 @@ const Projects = () => {
             {
                 projectData.map((item) => {
                     return (<div className="card" key={item.id}>
-                        <img src={item.projectImage} alt="project" loading="lazy" width="1000" height="1000" />
+                        <img src={item.projectImage} alt="project" />
                         <div className="cardDetails">
                             <p>{item.projectTitle}</p>
                             <ul>
