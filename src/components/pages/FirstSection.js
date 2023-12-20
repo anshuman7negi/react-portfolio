@@ -2,7 +2,7 @@ import github from '../../assets/github.svg';
 import linkedin from '../../assets/linkedin.svg';
 import twitter from '../../assets/twitter.png';
 import youtube from '../../assets/youtube.svg'
-import anshuman from '../../assets/anshuman.jpg'
+import anshuman from '../../assets/anshuman.avif'
 import { Tilt } from 'react-tilt';
 import '../styles/FirstSection.css'
 
